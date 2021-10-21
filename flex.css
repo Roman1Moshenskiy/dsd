@@ -1,0 +1,47 @@
+
+header { background-color: rgb(39, 58, 167);
+    width: 1900px;
+    height: 200px ; 
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center }
+
+footer { background-color: rgb(39, 58, 167);
+    width: 1900px;
+    height: 200px ;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+   .main {display:flex;
+width:1900px;
+height:480px;
+background-color:rgb(145, 145, 145)
+}
+.left{display:inline;
+    width:700px;
+    height:480px;
+    background-color: yellow;}
+    .right{display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width:1200px;
+        height:480px;
+        background-color:tomato;}
+#bottom{display:flex;
+    justify-content:space-around;
+    align-items: center;
+    width:400px;
+    height:200px;}
+ #battomar
+    {width:100px;
+        height:100px;
+        background-color:black;}
+.img {width: 500px;
+    height: 400px;
+    background: url("https://wordpress-developer.pp.ua/wp-content/uploads/flexbox-css.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;}
+    
