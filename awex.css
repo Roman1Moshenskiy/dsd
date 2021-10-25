@@ -1,0 +1,62 @@
+.Marvel { 
+    display: flex
+}
+h1 {text-align:center;}
+.list{width:500px;
+    background-color:rgb(45, 10, 110);
+    color: blanchedalmond;
+    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    -webkit-transition: all 0.3s ease;;
+    -moz-transition: all 0.3s ease;;
+    -o-transition: all 0.3s ease;;
+    transition: all 0.3 ease;
+}
+
+
+.list:hover { transition:1000px;}
+#list {margin-right: 5px;
+width: 20px;
+height: 20px;}
+ .transform { width:800px;
+    height: 150px;
+    background-color:rgb(45, 10, 110);
+    color: blanchedalmond;
+    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    -webkit-transition: all 0.3s ease;;
+    -moz-transition: all 0.3s ease;;
+    -o-transition: all 0.3s ease;;
+    transition: all 0.3 ease;
+}
+.bottom {display:flex;
+    justify-content:space-around;
+    align-items: center;
+    width:800px;
+    height:150px;
+    }
+     #bottoms
+    {    display:inline-block;
+        width:100px;
+        height:100px;
+        background-color:rgb(255, 255, 255);
+        animation: skew 3s infinite;
+        transform: skew(20deg);
+        animation-direction: alternate;
+        opacity: 0.7;
+      }
+      @keyframes skew {
+        0% {
+          transform: skewX(20deg);
+        }
+        100% {
+          transform: skewX(-20deg);
+        }
+      }
+      #list31 {display: flex;
+        flex-direction: row;
+          margin-right: 5px;
+        width: 200px;
+        height: 200px;}
